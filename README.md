@@ -38,7 +38,7 @@ Assumptions:
 
 The contextual bandit treats the intuition `Z` as a new context variable and attempts to maximize the expected reward based on `P(Y=y|do(X),Z)`.
 
-## MABUC sequential decition problem
+## MABUC sequential decision problem
 
 ### Policy
 
