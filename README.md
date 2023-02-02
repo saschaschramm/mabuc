@@ -17,8 +17,8 @@ A player can observe `D` with `P(D=1)=0.5` and `B` with `P(B=1)=0.5` and has the
 
 During training of an agent we can observe the player's predilection `Z` but not `D` and `B`.
 
-Player: Uses the multi armed bandit and can observe `D` and `B`
-Agent: Can't observe `D` and `B` and tries to maximize the expected reward by observing the player's predilection `Z`
+* Player: Uses the multi armed bandit and can observe `D` and `B`
+* Agent: Can't observe `D` and `B` and tries to maximize the expected reward by observing the player's predilection `Z`
 
 ### Reward
 The environment emits the reward `y` with the probability `P(Y=y|D=d,B=b,X=x)`. The probabilities are given by the following table.
